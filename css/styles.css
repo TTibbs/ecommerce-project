@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --header-height: 90px;
+}
+
+.header {
+  background-color: darkolivegreen;
+  width: 100%;
+  font-family: sans-serif;
+  position: relative;
+}
+
+.nav-container {
+  width: min(100% - 30px, 950px);
+  margin-inline: auto;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.input {
+  max-width: 190px;
+  height: 40px;
+  padding: 10px;
+  /* text-align: center; */
+  border: 2px solid white;
+  border-radius: 5px;
+  /* box-shadow: 3px 3px 2px rgb(249, 255, 85); */
+}
+
+.input:focus {
+  color: rgb(19, 19, 19);
+  outline-color: rgb(0, 121, 30);
+  box-shadow: -3px -3px 15px rgb(0, 121, 30);
+  transition: .1s;
+  transition-property: box-shadow;
+}
+
+#main {
+  /* height: calc(100vh - var(--header-height)); */
+  border: 2px solid red;
+}
+
+.main-img {
+  width: 500px;
+  height: 300px;
+}
+
+.contact-btn {
+  background-color: darkolivegreen;
+  border-radius: 7px;
+  color: wheat;
+  cursor: pointer;
+}
+
+.redirect {
+  transition: .4s smooth;
+}
+
+.redirect:hover {
+  border-bottom: 1.5px solid black;
+  transition: .4s smooth;
+}
+
+#featured {
+  height: 700px;
+  border: 2px solid red;
+}
